@@ -1,3 +1,24 @@
+# 太长不看
+
+`sc.exe config wuauserv start= disabled`
+
+
+
+sc.exe config wuauserv start= disabled
+
+
+
+恢复
+
+
+
+`sc.exe config wuauserv start= auto`
+
+
+
+sc.exe config wuauserv start= auto
+
+
 # 永久禁止自动更新的步骤
 
 ## **步骤 1:** 按下键盘 Windows + X，选择 「Windows PowerShell (管理员)」。
@@ -30,27 +51,6 @@
 
 若你想恢复自动更新，只需输入 `sc.exe config wuauserv start= auto` 即可。
 
-
-
-# 太长不看
-
-`sc.exe config wuauserv start= disabled`
-
-
-
-sc.exe config wuauserv start= disabled
-
-
-
-恢复
-
-
-
-`sc.exe config wuauserv start= auto`
-
-
-
-sc.exe config wuauserv start= auto
 
 
 
